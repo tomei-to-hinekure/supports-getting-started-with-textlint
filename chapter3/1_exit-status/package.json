@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "lint": "textlint 'no-existence/**/*.md' && echo 'success!'",
+    "lint:with-error-handling": "./textlint-with-error-handling.sh && echo 'success!'"
+  },
+  "devDependencies": {
+    "textlint": "^15.8.0",
+    "textlint-rule-no-todo": "^2.0.1"
+  }
+}

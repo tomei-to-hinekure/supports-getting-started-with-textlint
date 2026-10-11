@@ -1,0 +1,7 @@
+{
+  "rules": {
+    "preset-ja-spacing": true,
+    "ja-no-mixed-period": true,
+    "sentence-length": true
+  }
+}

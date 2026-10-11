@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "preset-ja-spacing": true
+  },
+  "filters": {
+    "nocheck": true
+  }
+}

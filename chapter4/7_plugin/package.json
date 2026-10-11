@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "lint": "textlint docs"
+  },
+  "devDependencies": {
+    "textlint": "^15.8.0",
+    "textlint-plugin-svg": "file:plugin",
+    "textlint-rule-no-todo": "^2.0.1"
+  }
+}

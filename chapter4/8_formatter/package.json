@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "lint": "textlint --format violation-rules docs",
+    "fix": "textlint --format violation-rules --fix --dry-run docs",
+    "lint:json": "textlint --format json docs",
+    "fix:json": "textlint --format json --fix --dry-run docs"
+  },
+  "devDependencies": {
+    "textlint": "^15.8.0",
+    "textlint-formatter-violation-rules": "file:formatter",
+    "textlint-rule-ja-no-mixed-period": "^3.0.2",
+    "textlint-rule-preset-ja-spacing": "^3.0.3",
+    "textlint-rule-sentence-length": "^5.2.1"
+  }
+}

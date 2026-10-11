@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "lint": "textlint docs"
+  },
+  "devDependencies": {
+    "textlint": "^15.8.0",
+    "textlint-filter-rule-nocheck": "file:filter-rule",
+    "textlint-rule-preset-ja-spacing": "^3.0.3"
+  }
+}

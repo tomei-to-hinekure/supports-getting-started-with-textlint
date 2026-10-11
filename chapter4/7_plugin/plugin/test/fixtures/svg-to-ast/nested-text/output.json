@@ -1,0 +1,82 @@
+{
+  "type": "Document",
+  "range": [0, 91],
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 4,
+      "column": 0
+    }
+  },
+  "raw": "<svg xmlns=\"http://www.w3.org/2000/svg\">\n  <text>Hello <tspan>World</tspan>!</text>\n</svg>\n",
+  "children": [
+    {
+      "type": "text",
+      "range": [43, 83],
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 2
+        },
+        "end": {
+          "line": 2,
+          "column": 42
+        }
+      },
+      "raw": "<text>Hello <tspan>World</tspan>!</text>",
+      "children": [
+        {
+          "type": "Str",
+          "range": [49, 55],
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 8
+            },
+            "end": {
+              "line": 2,
+              "column": 14
+            }
+          },
+          "raw": "Hello ",
+          "value": "Hello "
+        },
+        {
+          "type": "Str",
+          "range": [62, 67],
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 26
+            }
+          },
+          "raw": "World",
+          "value": "World"
+        },
+        {
+          "type": "Str",
+          "range": [75, 76],
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 35
+            }
+          },
+          "raw": "!",
+          "value": "!"
+        }
+      ]
+    }
+  ]
+}
